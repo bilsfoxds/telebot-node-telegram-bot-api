@@ -1,6 +1,6 @@
 // handlers/newMemberHandler.js
 
-const { handleWelcomeMenu, handleBackToWelcome } = require("../callbacks/wellcomeCallback");
+const { handleWelcomeMenu } = require("../callbacks/wellcomeCallback");
 const { msgNewMember, messageWelcome, newMemberMainMenu } = require("../export");
 const path = require("path");
 

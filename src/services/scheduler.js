@@ -14,8 +14,8 @@ module.exports.start = (bot) => {
     }
 
     // Path gambar
-    // const imagePath = path.join(__dirname, "..", "assets", "images", "image-rajabet.png");
-    const imagePath = path.join(__dirname, "..", "assets", "videos", "video-rajabet.mp4");
+    const imagePath = path.join(__dirname, "..", "assets", "images", "image-rajabet.png");
+    // const imagePath = path.join(__dirname, "..", "assets", "videos", "video-rajabet.mp4");
 
     try {
       // Kirim gambar
